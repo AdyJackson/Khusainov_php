@@ -9,36 +9,42 @@
         }
         div {
             margin: 10px 20px;
-            border: 3px solid red;
+            border: 1px solid black;
         }
 
-        #google {
+        .header {
+            color: white;
+            margin-bottom: 20px;
+            border-bottom: 2px solid red;
+        }
+
+        .google {
             color: red;
         }
-        #rambler {
+        .rambler {
             color: blue;
         }
 
-        #yahoo {
+        .yahoo {
             color: green;
         }
     </style>
 </head>
 <body>
-    Список поисковых систем:<br>
-    <div id="google">Google:</div>
+    <div class="header">Список поисковых систем:</div>
+    <div class="google">Google:</div>
     <form action="https://www.google.com/search">
        <input name="q"> <br>
         <input type="submit">
     </form>
 
-    <div id="rambler">Rambler:</div>
+    <div class="rambler">Rambler:</div>
     <form action="https://nova.rambler.ru/search">
         <input name="query"> <br>
         <input type="submit">
     </form>
 
-    <div id="yahoo">Yahoo:</div>
+    <div class="yahoo">Yahoo:</div>
     <form action="https://search.yahoo.com/search">
         <input name="q"> <br>
         <input type="submit">
